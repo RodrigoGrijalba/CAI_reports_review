@@ -1,17 +1,12 @@
-[Report 1](https://www.annualreviews.org/docserver/fulltext/economics/11/1/annurev-economics-080217-053433.pdf?expires=1713216498&id=id&accname=guest&checksum=609F0A2C6FDA057057538670762D1500)
-[Report 2](https://arxiv.org/pdf/1907.12665.pdf)
-[Report 3](https://arxiv.org/pdf/1201.0220.pdf)
-[Report 4](https://arxiv.org/pdf/2212.11366.pdf)
-
-Questions: 
+### Questions: 
 1. What is the research question of the article?
 2. What are the strengths and weaknesses of the document's approach to answering that question? 
 3. How does this paper advance knowledge about the question, i.e. what is the contribution?
 4. What would be one or two valuable and specific next steps to advance this question?
 
-## Answers
+## [Report 1](https://www.annualreviews.org/docserver/fulltext/economics/11/1/annurev-economics-080217-053433.pdf?expires=1713216498&id=id&accname=guest&checksum=609F0A2C6FDA057057538670762D1500):
 
-### Report 1:
+### Model Answers:
 
 1. How can econometricians diversify their toolset with ML Methods?
 
@@ -35,9 +30,10 @@ Questions:
 
 4. For each of the listed methods and their corresponding applications, a deeper dive into the nuances, like data requirements, assymptotic characteristics of the estimators, tuning of algorithms in response to specific settings, etc, would be very useful resources. Another useful addition would be more illustrative examples for the use of the different methods.
 
-#### Grades
+### Grades
 
 |Code     |Q1|Q2|Q3|Q4|Total|Notes|
+|---------|--|--|--|--|-----|-----|
 |000169027|5 |4 |4 |5 |18   ||
 |000199908|5 |5 |5 |5 |20   ||
 |000216161|4 |5 |4 |4 |17   ||
@@ -55,6 +51,11 @@ Questions:
 |000242490|5 |5 |5 |5 |20   ||
 |000250843|4 |5 |5 |3 |17   ||
 |000259077|4 |5 |5 |5 |19   ||
+
+## [Report 2](https://arxiv.org/pdf/1907.12665.pdf)
+## [Report 3](https://arxiv.org/pdf/1201.0220.pdf)
+## [Report 4](https://arxiv.org/pdf/2212.11366.pdf)
+
 
 
 
