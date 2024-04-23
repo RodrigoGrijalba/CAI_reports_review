@@ -107,27 +107,47 @@
 
 ## [Report 3](https://arxiv.org/pdf/1201.0220.pdf)
 
+### Possible answers
+
+1. What are the utility and application details of High Dimensional Sparse models for empirical estimation and inference in settings where there is a high-dimensional space of regressors?
+
+2. Strengths and Weaknesses
+
+2.1. Strengths:
+
+- The paper is highly rigorous with in proving it's claims regarding the convergence and efficiency thereof for the methods described
+
+- The authors use simulations and empirical examples to illustrate the usefulness of the proposed methods and their performance as compared to other, more traditional methods
+
+2.2. Weaknesses
+
+- The paper is quite technical and verbose in its notation.
+
+3. Initially, the authors present a general model of a setting where there is a high amount of dimensions that can be related to a variable of interest, but only a small fraction of these dimensions are actually useful for estimation of the outcome with a small enough error; the identity of these useful dimensions it not known beforehand. To identify the useful dimensions and estimate the parameters associated with them, they propose several, equally useful, computationally feasible methods that rely on solving convex optimization problems whose criterion function relies linearly on an l-1 penalty term (Lasso), for whom the weight is calculated through several iterations of the Lasso procedure rather than by cross-validation. Their procedure integrates a final post-identification (post-Lasso) step which seeks to reduce bias due to the regularization found in the previous Lasso step. Both of them are capable of converging efficiently to optimal "oracle" estimation results. They illustrate these theoretical results with a Monte Carlo experiment, where they also find that the Lasso and Post-Lasso methods they propose perform better than the estimates with cross-validated penalty weights. They then show how to apply these procedures for treatment and structural effect inference. In these cases, the proposed procedures are capable of performing near optimal oracle estimations and also outperform other simpler methods. Finally, they show some empirical examples that show the usefulness of the proposed procedures for both selection of instruments in highly dimensional environemnts and for direct selection of control covariates.
+
+4. Mainly, it would be interesting to see this approach applied to more empirical research, either for new estimations or for comparing and reassessing the results of previous estimations.
 
 |Code     |Q1|Q2|Q3|Q4|Total|Notes|
 |---------|--|--|--|--|-----|-----|
 |000169027|  |  |  |  |   ||
-|000199908|  |  |  |  |   ||
-|000216161|  |  |  |  |   ||
-|000216264|  |  |  |  |   ||
-|000225586|  |  |  |  |   ||
-|000231427|  |  |  |  |   ||
-|000234621|  |  |  |  |   ||
-|000242904|  |  |  |  |   ||
-|000242956|  |  |  |  |   ||
-|000250710|  |  |  |  |   ||
+|000199908|5 |5 |5 |5 |20   ||
+|000216161|5 |3 |3 |1 |12   ||
+|000216264|5 |5 |4 |5 |19   ||
+|000225586|5 |5 |5 |4 |19   ||
+|000231427|5 |4 |5 |5 |19   ||
+|000234621|5 |5 |5 |5 |20   ||
+|000242904|5 |3 |3 |5 |16   ||
+|000242956|5 |4 |3 |4 |16   ||
+|000250710|5 |4 |5 |5 |18   |Deducted one point for turning in a .txt file instead of the required .md|
 |000199862|  |  |  |  |   ||
 |000218002|  |  |  |  |   ||
-|000230732|  |  |  |  |   ||
-|000231577|  |  |  |  |   ||
-|000242490|  |  |  |  |   ||
-|000250843|  |  |  |  |   ||
-|000259077|  |  |  |  |   ||
-
+|000230732|5 |5 |3 |4 |17   ||
+|000231577|5 |3 |4 |5 |17   ||
+|000242490|2 |2 |3 |3 |10   ||
+|000250843|5 |5 |5 |5 |20   ||
+|000259077|5 |4 |5 |5 |19   ||
+|000220021|5 |5 |4 |3 |16   |Deducted one point for turning in a .docx file instead of .md|
+|000220230|5 |3 |4 |3 |15   ||
 
 
 
