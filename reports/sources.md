@@ -204,31 +204,49 @@
 |000259077|  |  |  |  |     ||
 
 
-## Report 5:
+## [Report 5:](https://netflixtechblog.com/orchestrating-data-ml-workflows-at-scale-with-netflix-maestro-aaa2b41b800c)
+
+1. How does the newly developed Maestro contend against common challenges of scalability, reliability and usability for workflow orchestration?
+
+2. Strengths and Weaknesses:
+
+    2.1. Strengths:
+
+    - Gives a high-level overview of the way Maestro fits withing a large scale infrastructure of data servicing where many workflows consisting of a very large amounts of steps must be set up and ran with the least amount of overhead.
+
+    - Further goes into detail about the specific benefits of orchestration using maestro like workflow templates, integration of several different programming languages and formats, several various ways of integrating event/time scheduling of workflows.
+
+    2.2. Weaknesses:
+
+    - Explanations of the system and, its use and its components include technical jargon specific to the industry, so understanding the specifics might be slightly more complicated for academics and data scientists who wish to adopt similar systems but don´t have the background in software architecture necessary to easily understand the descriptions, even if they are high-level.
+
+3. The document explains the motivation for developing Maestro for workflow orchestration, namely as a way to handle very large and complex data servicing structures that may encompass thousands of workflows, each consisting of steps, each of which may serve as an input, trigger, or parallel subworkflow of any other. It then details the different ways in which it can serve many users of diverse backgrounds and specializations for a variety of workflow-related tasks, like definition, scheduling, triggering, parametrization, among others.
+
+4. It would be interesting to explore how Maestro can help in much smaller scales, like those of academia. Testing and benchmarking Maestro in comparison with other approaches in terms of overhead processing costs.
 
 
 |Code     |Q1|Q2|Q3|Q4|Total|Notes|
 |---------|--|--|--|--|-----|-----|
 |000169027|  |  |  |  |     ||
-|000199862|  |  |  |  |     ||
-|000199908|  |  |  |  |     ||
-|000207972|  |  |  |  |     ||
-|000216161|  |  |  |  |     ||
-|000216264|  |  |  |  |     ||
-|000217597|  |  |  |  |     ||
+|000199862|4 |4 |4 |5 |17   ||
+|000199908|4 |5 |4 |5 |18   ||
+|000207972|5 |5 |4 |4 |18   ||
+|000216161|4 |3 |4 |4 |15   ||
+|000216264|4 |5 |4 |5 |18   ||
+|000217597|5 |5 |5 |5 |20   ||
 |000218002|  |  |  |  |     ||
-|000220021|  |  |  |  |     ||
-|000225586|  |  |  |  |     ||
-|000230732|  |  |  |  |     ||
-|000231427|  |  |  |  |     ||
-|000231577|  |  |  |  |     ||
-|000234621|  |  |  |  |     ||
-|000242490|  |  |  |  |     ||
-|000242904|  |  |  |  |     ||
-|000242956|  |  |  |  |     ||
-|000250710|  |  |  |  |     ||
-|000250843|  |  |  |  |     ||
-|000259077|  |  |  |  |     ||
+|000220021|4 |5 |4 |5 |18   |Deducted one point for turning in an extensionless file instead of the required .md|
+|000225586|5 |5 |3 |4 |17   ||
+|000230732|5 |5 |5 |5 |20   ||
+|000231427|4 |5 |5 |5 |19   ||
+|000231577|5 |4 |4 |5 |18   ||
+|000234621|5 |5 |5 |4 |19   ||
+|000242490|5 |5 |5 |5 |20   ||
+|000242904|4 |3 |4 |3 |14   |Does not explicitly answer the questions. Awarded points in each question because correct answers are implied, although incompletely|
+|000242956|4 |5 |4 |5 |18   ||
+|000250710|5 |5 |5 |5 |20   ||
+|000250843|5 |5 |5 |5 |20   ||
+|000259077|5 |5 |5 |5 |20   ||
 
 
 ## Report 6
