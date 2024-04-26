@@ -199,7 +199,7 @@
 |000242490|  |  |  |  |     ||
 |000242904|5 |2 |2 |5 |14   ||
 |000242956|5 |5 |3 |5 |18   ||
-|000250710|5 |5 |4 |5 |19   |Deducted a point for turning in a .txt file instead of the required .md|
+|000250710|5 |5 |4 |5 |18   |Deducted a point for turning in a .txt file instead of the required .md|
 |000250843|5 |5 |5 |5 |20   ||
 |000259077|  |  |  |  |     ||
 
