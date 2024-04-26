@@ -14,13 +14,13 @@
 
 2. Strengths & weaknesses:
 
-2.1. Strengths
+    2.1. Strengths
 
 - Makes an exhaustive list of current (at the time of writing the article) ML methods relevant to econometrics
 
 - Explains the application of each method to different goals and settings for econometrics
 
-2.2. Weaknesses
+    2.2. Weaknesses
 
 - Does not do a deep dive into the nuances of each method and how they can be modified for different econometric goals and data settings
 
@@ -51,6 +51,8 @@
 |000242490|5 |5 |5 |5 |20   ||
 |000250843|4 |5 |5 |3 |17   ||
 |000259077|4 |5 |5 |5 |19   ||
+|000207972|4 |5 |3 |1 |12   |One point deducted for merging the report in late|
+|000217597|5 |5 |4 |1 |13   |One point deducted for turning the report in late. One point deducted for turning in an extensionless file instead of the required .md|
 
 
 ## [Report 2](https://arxiv.org/pdf/1907.12665.pdf)
@@ -61,7 +63,7 @@
 
 2. Strengths and Weaknesses
 
-2.1. Strengths
+    2.1. Strengths
 
 - It explores a variety of predictive models and compares their performance for the task at hand, finding the most capable one.
 
@@ -69,7 +71,7 @@
 
 - Makes use of sentiment analysis of reviews of the rental properties to add another dimension to the feature space
 
-2.2. Weaknesses
+    2.2. Weaknesses
 
 - It leaves out some important and relevant approaches to prediction like Random Forests
 
@@ -104,6 +106,9 @@
 |000242490|5 |4 |4 |5 |18   ||
 |000250843|4 |4 |4 |5 |17   ||
 |000259077|5 |4 |5 |5 |19   ||
+|000207972|5 |4 |3 |4 |15   |One point deducted for merging the report in late|
+|000217597|4 |4 |5 |4 |16   |One point deducted for merging the report in late|
+
 
 ## [Report 3](https://arxiv.org/pdf/1201.0220.pdf)
 
@@ -113,13 +118,13 @@
 
 2. Strengths and Weaknesses
 
-2.1. Strengths:
+    2.1. Strengths:
 
 - The paper is highly rigorous with in proving it's claims regarding the convergence and efficiency thereof for the methods described
 
 - The authors use simulations and empirical examples to illustrate the usefulness of the proposed methods and their performance as compared to other, more traditional methods
 
-2.2. Weaknesses
+    2.2. Weaknesses
 
 - The paper is quite technical and verbose in its notation.
 
@@ -143,7 +148,7 @@
 |000218002|  |  |  |  |   ||
 |000230732|5 |5 |3 |4 |17   ||
 |000231577|5 |3 |4 |5 |17   ||
-|000242490|2 |2 |3 |3 |10   ||
+|000242490|2 |3 |4 |4 |13   ||
 |000250843|5 |5 |5 |5 |20   ||
 |000259077|5 |4 |5 |5 |19   ||
 |000220021|5 |5 |4 |3 |16   |Deducted one point for turning in a .docx file instead of .md|
@@ -153,29 +158,101 @@
 
 ## [Report 4](https://arxiv.org/pdf/2212.11366.pdf)
 
+### Possible answers:
+
+1. What are the current statistical considerations of estimation methods for Average Treatment Effects in Online Controlled Experiments, given the diversity of challenges they may face?
+
+2. Strengths and Weaknesses:
+
+    2.1. Strengths:
+
+    - Thorough examination of the different methods best fit for different settings in  which an Online Controlled Experiment might be deployed. For each method, benefits and drawbacks are explained succinctly.
+
+    - For each setting, relevant illustrative examples are presented, which helps contextualize the practical considerations behind the methods presented.
+
+    2.2. Weaknesses
+
+    - The exposition of each method is really brief, which might leave many questions open about their theoretical and practical details. However, the literature referenced contains the answers to the theoretical detail, as well as further elaboration about practical examples.
+
+3. For a variety of settings, ranging from the simple application of ATE estimation through difference in averages, to the existence of long term differential effects and spillovers, the paper thoroughly lists the state of the art methods for ATE estimation in OCEs. For each method, a succinct explanation of theoretical and methodological features is provided.
+
+4. Advancing the knowledge on the question could mean further exploring the methods that were left without as much explanation in the paper. For example, sampling techniques for OCEs that ensure optimal treatment assignment (like stratified sampling and bandit-problem approaches through Machine Learning) would aid complement the application of the inferencial methods in the main body of the text. Another path of research would be further explaining the practical examples of OCEs, explaining their strengths and drawbacks and how better inference would have been achieved.
+
+### Grades
 
 |Code     |Q1|Q2|Q3|Q4|Total|Notes|
 |---------|--|--|--|--|-----|-----|
-|000169027|  |  |  |  |   ||
-|000199908|  |  |  |  |   ||
-|000216161|  |  |  |  |   ||
-|000216264|  |  |  |  |   ||
-|000225586|  |  |  |  |   ||
-|000231427|  |  |  |  |   ||
-|000234621|  |  |  |  |   ||
-|000242904|  |  |  |  |   ||
-|000242956|  |  |  |  |   ||
-|000250710|  |  |  |  |   ||
-|000199862|  |  |  |  |   ||
-|000218002|  |  |  |  |   ||
-|000230732|  |  |  |  |   ||
-|000231577|  |  |  |  |   ||
-|000242490|  |  |  |  |   ||
-|000250843|  |  |  |  |   ||
-|000259077|  |  |  |  |   ||
+|000169027|5 |5 |4 |4 |18   ||
+|000199862|  |  |  |  |     ||
+|000199908|5 |5 |5 |4 |19   ||
+|000207972|5 |4 |4 |5 |18   ||
+|000216161|3 |3 |5 |1 |12   |Does not answer Q2 and Q4. Awarded two points in Q2 for thotoughly listing the methodologies, which is one of the strengths of the article and therefor indirectly answers the question|
+|000216264|5 |5 |3 |5 |18   ||
+|000217597|5 |5 |4 |5 |19   ||
+|000218002|  |  |  |  |     ||
+|000220021|5 |5 |4 |4 |17   |Deducted a point for turning in an extensionless file instead of the required .md|
+|000225586|4 |4 |4 |4 |16   ||
+|000230732|4 |5 |5 |5 |19   ||
+|000231427|5 |4 |5 |5 |19   ||
+|000231577|5 |4 |4 |4 |17   ||
+|000234621|3 |4 |5 |5 |17   ||
+|000242490|  |  |  |  |     ||
+|000242904|5 |2 |2 |5 |14   ||
+|000242956|5 |5 |3 |5 |18   ||
+|000250710|5 |5 |4 |5 |19   |Deducted a point for turning in a .txt file instead of the required .md|
+|000250843|5 |5 |5 |5 |20   ||
+|000259077|  |  |  |  |     ||
 
 
+## Report 5:
 
 
+|Code     |Q1|Q2|Q3|Q4|Total|Notes|
+|---------|--|--|--|--|-----|-----|
+|000169027|  |  |  |  |     ||
+|000199862|  |  |  |  |     ||
+|000199908|  |  |  |  |     ||
+|000207972|  |  |  |  |     ||
+|000216161|  |  |  |  |     ||
+|000216264|  |  |  |  |     ||
+|000217597|  |  |  |  |     ||
+|000218002|  |  |  |  |     ||
+|000220021|  |  |  |  |     ||
+|000225586|  |  |  |  |     ||
+|000230732|  |  |  |  |     ||
+|000231427|  |  |  |  |     ||
+|000231577|  |  |  |  |     ||
+|000234621|  |  |  |  |     ||
+|000242490|  |  |  |  |     ||
+|000242904|  |  |  |  |     ||
+|000242956|  |  |  |  |     ||
+|000250710|  |  |  |  |     ||
+|000250843|  |  |  |  |     ||
+|000259077|  |  |  |  |     ||
 
+
+## Report 6
+
+|Code     |Q1|Q2|Q3|Q4|Total|Notes|
+|---------|--|--|--|--|-----|-----|
+|000169027|  |  |  |  |     ||
+|000199862|  |  |  |  |     ||
+|000199908|  |  |  |  |     ||
+|000207972|  |  |  |  |     ||
+|000216161|  |  |  |  |     ||
+|000216264|  |  |  |  |     ||
+|000217597|  |  |  |  |     ||
+|000218002|  |  |  |  |     ||
+|000220021|  |  |  |  |     ||
+|000225586|  |  |  |  |     ||
+|000230732|  |  |  |  |     ||
+|000231427|  |  |  |  |     ||
+|000231577|  |  |  |  |     ||
+|000234621|  |  |  |  |     ||
+|000242490|  |  |  |  |     ||
+|000242904|  |  |  |  |     ||
+|000242956|  |  |  |  |     ||
+|000250710|  |  |  |  |     ||
+|000250843|  |  |  |  |     ||
+|000259077|  |  |  |  |     ||
 
